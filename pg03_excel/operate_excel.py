@@ -3,7 +3,10 @@
 """
 
 import openpyxl
+import os
 
-path = ''
-workbook = openpyxl(path)
-worksheet = ''
+
+path = os.getcwd()
+print(path)
+# workbook = openpyxl(path)
+# worksheet = ''
