@@ -37,9 +37,9 @@ class Circle_operation():
         self.radius = radius
         self.area = 0.0
         self.perimeter = 0.0
-
-        self.get_area()
-        self.get_perimeter()
+        #把函数放入构造函数后可以自动计算周长和面积，便于在主函数内直接调用
+        # self.get_perimeter()
+        # self.get_area()
 
     def get_area(self):
         self.area = PI * self.radius ** 2
@@ -49,5 +49,8 @@ class Circle_operation():
 
 if __name__ == '__main__':
     obj01 = Circle_operation(100)
-    print(obj01.perimeter,obj01.area)
+    obj01.get_area()
+    obj01.get_perimeter()
+    print(obj01.get_area(),obj01.get_perimeter())
+    # print(obj01.perimeter,obj01.area)
 
