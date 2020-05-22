@@ -31,7 +31,7 @@ if __name__ == '__main__':
 
 #方法二： 面向对象编程
 PI = 3.1415926
-class Circle_operation():
+class Circle_operation:
     # 构造函数
     def __init__(self,radius):
         self.radius = radius
@@ -51,6 +51,6 @@ if __name__ == '__main__':
     obj01 = Circle_operation(100)
     obj01.get_area()
     obj01.get_perimeter()
-    print(obj01.get_area(),obj01.get_perimeter())
+    print(obj01.area,obj01.perimeter)
     # print(obj01.perimeter,obj01.area)
 
