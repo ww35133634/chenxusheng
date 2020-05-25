@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/python_workbook.iml" filepath="$PROJECT_DIR$/.idea/python_workbook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pyprogram.iml" filepath="$PROJECT_DIR$/.idea/pyprogram.iml" />
     </modules>
   </component>
 </project>
