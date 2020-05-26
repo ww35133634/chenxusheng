@@ -25,11 +25,12 @@ class RandomItem:
         self.nums = []   #定义存放随机数的集合
 
     def get_num(self):
-        temp = random.randint(self.begin_num,self.end_num)
-        if temp not in self.nums:
-            self.nums.append(temp)
-            if len(self.nums) == self.num:
-                break
+        while True:
+            temp = random.randint(self.begin_num,self.end_num)
+            if temp not in self.nums:
+                self.nums.append(temp)
+                if len(self.nums) == self.num:
+                     break
 if __name__ == '__main__':
     obj01 = RandomItem(50,100,10)
     obj01.get_num()
