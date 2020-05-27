@@ -1,3 +1,4 @@
+import random
 def get_name(num:int):
     first_name = ['张', '金', '李', '王', '赵','陈','刘']
     mid_name = ['玉', '明', '龙', '芳', '军', '玲']

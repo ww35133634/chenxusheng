@@ -53,9 +53,7 @@ def get_num():
         except:
             print("输入不符要求，请重新输入！")
 
-def get_action():
-    str01 = "+，-，*，/，%"
-    action_list = str01.split("，")
+def get_action(action_list:list):
     while True:
         action = input("请选择要执行的操作（+，-，*，/，%）：")
         try:
@@ -65,12 +63,56 @@ def get_action():
             print("输入不符要求，请重新输入！")
 
 if __name__ == '__main__':
+
+    str01 = "+，-，*，/，%"
+    action_list = str01.split("，")
     num01 = get_num()
-    action = get_action()
+    action = get_action(action_list)
     num02 = get_num()
-    total = 0
+    result = 0
+    flag = True
     if action == '+':
-        total = num01
+        result = num01 + num02
+    elif action == '-':
+        result = num01 - num02
+    elif action == '*':
+        result = num01 * num02
+    elif action == '/':
+        if num02 == 0:
+            print("除数不能为0")
+            flag = False
+        else:
+            result = num01 / num02
+    elif action == '%':
+        if num02 == 0:
+            print("除数不能为0")
+            flag = False
+        else:
+            result = num01 % num02
+    if flag:
+        print('{}{}{}={}'.format(num01,action,num02,result))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

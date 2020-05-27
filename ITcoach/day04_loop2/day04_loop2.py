@@ -32,5 +32,17 @@
 比如 7 ，只能被1 或者 自己整除
 比如 21 不是素数，1，21， 3，7
 """
+import numpy as np
 
+def is_prime_number(num:int):
+    for r in range(2,int(np.sqrt(num))+1):
+        if num % r == 0:
+            return False
+        else:
+            return True
+
+if __name__ == '__main__':
+    num = int(input("请输入一个数："))
+    is_prime = is_prime_number(num)
+    print(is_prime)
 
