@@ -96,14 +96,23 @@
 # for i in range(1, 20):
 #     print(fib_recursion(i), end=' ')
 
-f = []
-def fib_recur(x = 1,y = 1):
-    global f
-    while len(str(y))!= 5:
-        f.append(x)
-        y += x
-        x = y - x
-    return
-fib_recur()
-print(f)
+# f = []
+# def fib_recur(x = 1,y = 1):
+#     global f
+#     while len(str(y))!= 5:
+#         f.append(x)
+#         y += x
+#         x = y - x
+#     return
+# fib_recur()
+# print(f)
+
+"""
+计算从1-100之和
+1+2+3+4...... 100
+"""
+
+# 递归法
+
+
 
