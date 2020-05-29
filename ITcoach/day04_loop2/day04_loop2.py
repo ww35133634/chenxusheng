@@ -113,6 +113,139 @@
 """
 
 # 递归法
+# def demo(num:int):
+#     if num == 1:
+#         return 1
+#     else:
+#         total = demo(num-1) + num
+#         return total
+#
+# if __name__ == '__main__':
+#     result = demo(100)
+#     print(result)
+
+# def fib_get_num(num:int):
+#     assert num >= 0
+#     if num <= 1:
+#         return num
+#     else:
+#         return fib_get_num(num - 2) + fib_get_num(num - 1)
+#
+# if __name__ == '__main__':
+#     nums = []
+#     for i in range(10):
+#         num = fib_get_num(i)
+#         nums.append(num)
+#     print(nums)
+
+"""
+随机生成两个1000以内的不同的整数，计算两个数之间的质数之和
+比如生成 312 和 980 
+计算从312到980之间的所有素数之和并输出
+"""
+# import random
+# import math
+# def get_num():
+#     """生成2个1000以内的不同的整数"""
+#     num_set = set()
+#     while len(num_set) != 2:
+#         num = random.randint(1,1000)
+#         num_set.add(num)
+#     num_list = list(num_set)
+#     num_list.sort()
+#     return num_list
+#
+# def prime_range(start:int,end:int):
+#     prime_nums = []
+#     for i in range(start,end + 1):
+#         if is_prime(i):
+#             # print(i)
+#             prime_nums.append(i)
+#     return prime_nums
+#
+# def is_prime(num:int):
+#     if num <= 1:
+#         return False
+#     elif num == 2:
+#         return num
+#     for i in range(2,num):
+#         if num % i == 0:
+#             return False
+#     return num
+#
+#
+# if __name__ == '__main__':
+#     nums = get_num()
+#     print(nums)
+#     prime_list = prime_range(nums[0], nums[1] + 1)
+#     result = 0
+#     for i in prime_list:
+#         result += i
+#     print(result)
+#     print(prime_list)
+#     print(math.fsum(prime_list))
+
+import random
+import numpy as np
+
+def get_num():
+    """获取2个不重复的数"""
+    nums = set()
+    while len(nums) < 2:
+        num = random.randint(0,1000)
+        nums.add(num)
+    return nums
+
+
+def is_prime(num:int):
+    if num <= 1:
+        return False
+    elif num == 2:            
+        return True
+    for i in range(2,num):
+        if num % i == 0:
+            return False
+    return True
+
+def prime_nums(start:int,end:int):
+    prime_list = []
+    for i in range(start,end + 1):
+        if is_prime(i):
+            prime_list.append(i)
+    return prime_list
+
+if __name__ == '__main__':
+    nums = get_num()
+    print("最大值是：{}\t 最小值是：{}".format(min(nums),max(nums)))
+    prime_list = prime_nums(min(nums),max(nums))
+    print(prime_list)
+
+
+
+
+
+
+# def myprime(x):
+#     """判断一个数x是否为素数,如果为素数，
+#     返回True,否则返回False
+#     """
+#     if x <= 1:
+#         return False
+#     for i in range(2, x):
+#         if x % i == 0:
+#             return False
+#     return True
+#
+# def myprimes(start, end):
+#
+#     for i in range(start,end):
+#         if myprime(i):
+#             yield i
+# print([x for x in myprimes(1, 10)])
+#
+# for x in myprimes(1,10):
+#     print(x)
+
 
 
 
