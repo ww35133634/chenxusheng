@@ -185,40 +185,40 @@
 #     print(prime_list)
 #     print(math.fsum(prime_list))
 
-import random
-import numpy as np
+# import random
+# import numpy as np
 
-def get_num():
-    """获取2个不重复的数"""
-    nums = set()
-    while len(nums) < 2:
-        num = random.randint(0,1000)
-        nums.add(num)
-    return nums
-
-
-def is_prime(num:int):
-    if num <= 1:
-        return False
-    elif num == 2:            
-        return True
-    for i in range(2,num):
-        if num % i == 0:
-            return False
-    return True
-
-def prime_nums(start:int,end:int):
-    prime_list = []
-    for i in range(start,end + 1):
-        if is_prime(i):
-            prime_list.append(i)
-    return prime_list
-
-if __name__ == '__main__':
-    nums = get_num()
-    print("最大值是：{}\t 最小值是：{}".format(min(nums),max(nums)))
-    prime_list = prime_nums(min(nums),max(nums))
-    print(prime_list)
+# def get_num():
+#     """获取2个不重复的数"""
+#     nums = set()
+#     while len(nums) < 2:
+#         num = random.randint(0,1000)
+#         nums.add(num)
+#     return nums
+#
+#
+# def is_prime(num:int):
+#     if num <= 1:
+#         return False
+#     elif num == 2:
+#         return True
+#     for i in range(2,num):
+#         if num % i == 0:
+#             return False
+#     return True
+#
+# def prime_nums(start:int,end:int):
+#     prime_list = []
+#     for i in range(start,end + 1):
+#         if is_prime(i):
+#             prime_list.append(i)
+#     return prime_list
+#
+# if __name__ == '__main__':
+#     nums = get_num()
+#     print("最大值是：{}\t 最小值是：{}".format(min(nums),max(nums)))
+#     prime_list = prime_nums(min(nums),max(nums))
+#     print(prime_list)
 
 
 
@@ -246,6 +246,18 @@ if __name__ == '__main__':
 # for x in myprimes(1,10):
 #     print(x)
 
+"""打印10以内乘法口诀表"""
+
+# for i in range(1,10):
+#     for j in range(1,i+1):
+#         print('%d×%d=%d' % (j, i, i*j), end='\t')
+#     print()
+
+for i in range(1,10):
+    for j in range(1,i+1):
+        sr = "{} X {} = {}".format(j,i,i*j)
+        print(sr,end="\t")
+    print()
 
 
 
