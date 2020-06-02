@@ -1,6 +1,5 @@
 """
-需求：
-1. 生成10个不同的三位数
+需求：1. 生成10个不同的三位数
 """
 # from day05_list.class_random import class_random
 # if __name__ == '__main__':
@@ -14,31 +13,35 @@
       【2】统计出总分的前三名和后三名学生姓名
       【3】在(50-100)的数字中，哪些数字没有在在三门的分数中出现过
 """
-from day05_list.class_random import class_random
-from operator import itemgetter,attrgetter
-if __name__ == '__main__':
-    obj_name = class_random.Random_name(10)
-    names = obj_name.name
-    print(names)
-    all_results = []
-    name_totals = []
-    for name in names:
-        results = []
-        total = []
-        obj_result = class_random.Random_result(50, 100, 3)
-        one_result = obj_result.one_distinc_result
-        print(one_result)
-        # 格式：[姓名，语文成绩，数学成绩，英语成绩]
-        results.append(name)
-        results.extend(one_result)
-        # 格式：[姓名，成绩总分]
-        total.append(name)
-        total.append(sum(one_result))
-        all_results.append(results)
-        name_totals.append(total)
-    print(all_results)
-    print(name_totals)
-# 【1】统计出每门学生的前三名和后三名【包含姓名和具体的分数】
+# from day05_list.class_random import class_random
+# from operator import itemgetter,attrgetter
+# if __name__ == '__main__':
+#     obj_name = class_random.Random_name(10)
+#     names = obj_name.name
+#     # print(names)
+#     all_results = []
+#     name_totals = []
+#     appear_numbers = []
+#     for name in names:
+#         results = []
+#         total = []
+#         obj_result = class_random.Random_result(50, 100, 3)
+#         one_result = obj_result.one_distinc_result
+#         # print(one_result)
+#         # 需求1格式：[姓名，语文成绩，数学成绩，英语成绩]
+#         results.append(name)
+#         results.extend(one_result)
+#         # 需求2格式：[姓名，成绩总分]
+#         total.append(name)
+#         total.append(sum(one_result))
+#         # 需求3
+#         appear_numbers.extend(one_result)
+#
+#         all_results.append(results)
+#         name_totals.append(total)
+#     # print(all_results)
+#     # print(name_totals)
+# # 【1】统计出每门学生的前三名和后三名【包含姓名和具体的分数】
 #     course = ["chinese","math","english"]
 #     i = 1
 #     for i in range(1,len(course)+1):
@@ -47,11 +50,24 @@ if __name__ == '__main__':
 #         top3_all_results = all_results_sort[:3]
 #         last3_all_results = all_results_sort[-3:]
 #         print("%s 前3名成绩:%s,%s 后3名成绩:%s \n" %(course[i-1],top3_all_results,course[i-1],last3_all_results))
-# 【2】统计出总分的前三名和后三名学生姓名
-
-
-
-
+# # 【2】统计出总分的前三名和后三名学生姓名
+#     name_totals_sort = sorted(name_totals,key=itemgetter(1),reverse=True)
+#     top3_name_totals = name_totals_sort[:3]
+#     last3_name_totals = name_totals_sort[-3:]
+#     top3_names = []
+#     for t_name in top3_name_totals:
+#         top3_names.append(t_name[0])
+#     last3_names = []
+#     for l_name in last3_name_totals:
+#         last3_names.append(l_name[0])
+#     print("成绩总分前3名：%s ,成绩总分后3名：%s \n" %(top3_names,last3_names))
+# # 【3】在(50-100)的数字中，哪些数字没有在在三门的分数中出现过
+#     print("分数中出现的数字：%s" % appear_numbers)
+#     numbers = []
+#     for num in range(50,101):
+#         if num not in set(appear_numbers):
+#             numbers.append(num)
+#     print("分数中未出现的数字：%s" %numbers)
 
 """
 一副扑克牌52张（除了大小王）, 4个玩家在玩，模拟系统发牌、洗牌和整理牌，具体需求如下：
@@ -61,5 +77,26 @@ if __name__ == '__main__':
 【4】对于洗牌后的四个玩家的扑克牌进行整理
 ​    整理规则1：数字从小到大
 ​    从小到大(3、4、5、6、7、8、9、10、J、Q、K、A、2)
-​    整理规则2：在数字相同的情况下，按照花色（黑、红、梅、方）的顺序
+​    整理规则2：在数字相同的情况下，按照花色（♠、♥、♣、♦）的顺序
+【5】对于打印四个玩家整理后的牌
 """
+
+def bulit()
+
+
+
+
+
+
+
+
+
+num_tuple = tuple("3、4、5、6、7、8、9、10、J、Q、K、A、2".split("、"))
+type_tuple = tuple("♠、♥、♣、♦".split("、"))
+print(num_tuple)
+print(type_tuple)
+poker = {
+    "num":num_tuple,
+    "type":type_tuple
+}
+print(poker)
