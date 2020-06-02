@@ -16,23 +16,24 @@ class Random_name():
                 self.name.add(st)
 
 class Random_result():
-    def __init__(self,begin:int,end:int,num):
+    def __init__(self,begin:int,end:int,num:int):
         self.begin = begin
         self.end = end
         self.num = num
         self.one_repetition_result = list()
         self.one_distinc_result = set()
+
         # 自动执行
         self.get_repetition_result()
         self.get_distinc_result()
 
     def get_repetition_result(self):
-        while len(self.one_repetition_result) <= self.num:
+        while len(self.one_repetition_result) < self.num:
             result = random.randint(self.begin, self.end)
             self.one_repetition_result.append(result)
 
     def get_distinc_result(self):
-        while len(self.one_distinc_result) <= self.num:
+        while len(self.one_distinc_result) < self.num:
             result = random.randint(self.begin, self.end)
             self.one_distinc_result.add(result)
 

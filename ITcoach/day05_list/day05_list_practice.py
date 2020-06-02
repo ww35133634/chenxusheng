@@ -12,7 +12,7 @@
 为这5位同学随机生成5门考试的成绩【成绩介于50-100间】
 需求：按照平均分的倒序打印出成绩的明细
 """
-import class_random
+from day05_list.class_random import class_random
 
 # 案例01：生成10个50-100的数字
 # if __name__ == '__main__':
@@ -50,7 +50,6 @@ import class_random
 需求：按照平均分的倒序打印出成绩的明细
 """
 import numpy as np
-from operator import itemgetter,attrgetter    #itemgetter 按索引   attrgetter 按字段名
 
 if __name__ == '__main__':
     result_average_list = []
@@ -59,7 +58,7 @@ if __name__ == '__main__':
     results = []
     for i in range(len(name_list)):
         one_result = []
-        result = class_random.Random_result(50,100,5)
+        result = class_random.Random_result(50, 100, 5)
         one_result_list = list(result.one_distinc_result)
         one_result_average = round(np.average(one_result_list),2)
         print(one_result_average)
