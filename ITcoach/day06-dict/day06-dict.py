@@ -80,8 +80,57 @@
 ​    整理规则2：在数字相同的情况下，按照花色（♠、♥、♣、♦）的顺序
 【5】对于打印四个玩家整理后的牌
 """
+class Poker():
+    def __init__(self,pare:int=1,people:int=4):
+        self.num_tuple = tuple("3、4、5、6、7、8、9、10、J、Q、K、A、2".split("、"))
+        self.type_tuple = tuple("♠、♥、♣、♦".split("、"))
+        self.poker_dit = {"num": self.num_tuple,"type": self.type_tuple}   #基础数据
+        self.pare = pare            #几付
+        self.people = people        #玩家
+        self.all_poker_list = []    #存放生产的牌数
 
-def bulit()
+    def start(self):
+        while True:
+            input_num = input("请选择要执行的操作【1-生成牌 2-打印所有牌 3-打印玩家牌 4-发牌 5-洗牌 6-整理牌 7-退出】:")
+            if input_num =="1":
+                """生成牌"""
+                self.produce_poker()
+            elif input_num =="2":
+                """打印所有牌"""
+                self.print_poker(self.all_poker_list)
+            elif input_num == "3":
+                """打印玩家牌"""
+                pass
+            elif input_num == "4":
+                """发牌"""
+                pass
+            elif input_num == "5":
+                """洗牌"""
+                pass
+            elif input_num == "6":
+                """整理牌"""
+                pass
+            elif input_num == "7":
+                """退出"""
+                print("退出")
+                break
+            else:
+                print("输入的数字不符合要求，请重新输入！")
+
+
+    def produce_poker(self):
+        one_poker_list = []
+        for i_num ,v_num in enumerate(self.poker_dit["num"]):
+            for i_type,v_type in enumerate(self.poker_dit["type"]):
+                st = str("%02d" % i_type) + str("%02d" % i_num)
+                one_poker_list.append(st)
+        all_poker_list = one_poker_list * self.pare
+        print(all_poker_list)
+
+
+    def print_poker(self,contents:list):
+        for content in contents:
+            print("%s%s" %(self.poker_dit["type"][int(content[:2])],self.poker_dit["num"][int(content[2:])]))
 
 
 
@@ -91,12 +140,12 @@ def bulit()
 
 
 
-num_tuple = tuple("3、4、5、6、7、8、9、10、J、Q、K、A、2".split("、"))
-type_tuple = tuple("♠、♥、♣、♦".split("、"))
-print(num_tuple)
-print(type_tuple)
-poker = {
-    "num":num_tuple,
-    "type":type_tuple
-}
-print(poker)
+
+if __name__ == '__main__':
+    obj01 = Poker(1)
+    obj01.start()
+
+
+
+
+
