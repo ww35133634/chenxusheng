@@ -1,5 +1,7 @@
 import openpyxl
 from day05_list.class_random import class_random
+
+
 class ReadExcel:
     def __init__(self, path: str, sheet: str, infos: list, flag: bool = True):
         self.path = path
