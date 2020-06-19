@@ -1,0 +1,11 @@
+t=(50,60,74,63,50,95,74,80,50)
+print(len(t))
+print(max(t))
+print(min(t))
+print(sum(t))
+print(t.count(50))
+print(t.index(80))
+
+t1=('销售部-张三','财务部-李诗','销售部-周立新','IT部-曾贤志','销售部-梁芬')
+t2=(t for t in t1 if t[:3]=='销售部')
+print(tuple(t2))
