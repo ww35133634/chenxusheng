@@ -1,0 +1,1 @@
+print('嗨，Python我来了！')

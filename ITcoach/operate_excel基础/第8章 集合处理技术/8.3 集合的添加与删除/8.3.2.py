@@ -1,9 +1,0 @@
-s={'曾贤志','郭芙晨','章雪优','刘德花','李明'}
-s.remove('章雪优')
-print(s)
-s.discard('刘德花')
-print(s)
-s.pop()
-print(s)
-s.clear()
-print(s)

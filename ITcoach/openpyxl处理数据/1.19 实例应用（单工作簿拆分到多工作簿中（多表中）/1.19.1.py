@@ -17,4 +17,4 @@ for k,v in d.items():
         for v2 in v1:
             nws.append(v2)
     nwb.remove(nwb.active)
-    nwb.save('拆分结果/'+k+'.xlsx')
+    nwb.save()'拆分结果/'+k+'.xlsx'
