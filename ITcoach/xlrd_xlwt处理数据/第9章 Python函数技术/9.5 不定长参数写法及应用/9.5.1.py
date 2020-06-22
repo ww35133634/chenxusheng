@@ -9,3 +9,11 @@ def agg2(list,**subtotal):
     return agg
 
 print(agg2(l,求和=sum,个数=len,最大值=max))
+
+
+def avg(l: list, **demand):
+    print([(x, y(l)) for x, y in demand.items()])
+
+
+l = [32, 32, 4, 135, 34]
+avg(l, 和是=sum, 最大值是=max, 最小值是=min)
