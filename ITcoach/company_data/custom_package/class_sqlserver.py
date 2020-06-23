@@ -24,14 +24,18 @@ class SQLServer:
         recordset = cur.fetchall()
         self.conn.close()
         return recordset
+    @staticmethod
+    def main(sql):
+        cnn = SQLServer(server="192.168.21.211", user="Warehouse Department", password="CXS", database="YF_YRONG")
+        results = cnn.ExecQurey(sql)
+        machines_stock = {}
+        for x, y in results:
+            if x.strip() in machines_stock.keys():
+                machines_stock[x.strip()] += int(y)
+            else:
+                machines_stock[x.strip()] = int(y)
+        return machines_stock
 
-if __name__ == '__main__':
-    cnn = SQLServer(server="192.168.21.211",user="Warehouse Department",password="CXS",database="YF_YRONG")
-    sql = "select INVMBMB001 as 品号, sum(INVMCMC007) as 数量 from YR_IM_001 where CMSMCMC002 in ('整机仓','成品仓','整机呆滞仓') group by INVMBMB001"
-    results = cnn.ExecQurey(sql)
-    machines_stock = {}
-    for result in results:
-        print(result)
 
 
 

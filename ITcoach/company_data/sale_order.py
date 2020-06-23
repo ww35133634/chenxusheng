@@ -2,8 +2,6 @@
 汇总内贸和外贸销售订单
 """
 import openpyxl
-from comment.compare_table import CompareTable
-
 
 # """内贸订单数据"""
 path_demostic = r"sale_order\0615\机器订单_2020-06-15.xlsx"
