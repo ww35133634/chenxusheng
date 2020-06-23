@@ -1,52 +1,31 @@
-"""
-汇总内贸和外贸销售订单
-"""
-import openpyxl
+from company_data.custom_package.class_excel import Excel_Oprate
 
-# """内贸订单数据"""
-path_demostic = r"sale_order\0615\机器订单_2020-06-15.xlsx"
-wb_demostic = openpyxl.load_workbook(path_demostic, data_only=True)
-wb_demostic_ws = wb_demostic["未发汇总"]
-wb_demostic_title = list(wb_demostic_ws.values)[0]
-demostic_article_number = wb_demostic_title.index("品号")    # 内贸订单品号的索引值
-demostict_quantity = wb_demostic_title.index("(数量)")        # 内贸订单数量的索引值
-demostic_order_dict = {}       # 定义字典存放内贸数据
-for row in list(wb_demostic_ws.values)[1:]:
-    if row[0] == "未发":
-        demostic_order_dict[str(row[demostic_article_number])] = row[demostict_quantity]
-# print(demostic_order_dict)
-"""外贸订单数据"""
-path_foreign = r"sale_order\0615\外贸机器订单截止_2020-6-16简洁版(1).xlsx"
-wb_foreign = openpyxl.load_workbook(path_foreign, data_only=True)
-wb_foreign_ws = wb_foreign.active
-wb_foreign_title = list(wb_foreign_ws.values)[0]
-foreign_article_number = wb_foreign_title.index("品号")  # 外贸订单品号的索引值
-foreign_quantity = wb_foreign_title.index("未执行数量")   # 外贸订单数量的索引值
-print(foreign_article_number,foreign_quantity)
+# # 外贸订单
+# path = r"F:\python\ITcoach\company_data\外贸订单\外贸机器订单截止_2020-6-23简洁版.xlsx"
+# obj01 = Excel_Oprate(path)
+# fd01 = "品号"; fd02 = "未执行数量"
+# obj01.read_excel(fd01, fd02)
+# obj01.get_data()
+# foreign_order = obj01.data
 
-foreign_order_dict = {}         # 定义字典存放内贸数据
-for row in list(wb_foreign_ws.values)[1:]:
-    if row[foreign_article_number] != None:
-        foreign_order_dict[str(row[foreign_article_number])] = row[foreign_quantity]
-# print(foreign_order_dict)
+# # 内贸订单
+# path = r"F:\python\ITcoach\company_data\内贸订单\机器订单_2020-06-18.xlsx"
+# obj02 = Excel_Oprate(path)
+# fd01 = "品号"; fd02 = "(数量)"; fd03 = "状态"
+# obj02.read_excel(fd01, fd02, fd03)
+# obj02.get_data("未发")
+# demostic_order = obj02.data
 
-# 直接把字典key转为set集合
-# # print(set(demostic_dict))
+# 备货计划
+path = r"F:\python\ITcoach\company_data\销售预测\2020年7月份备货计划20200619.xlsx"
+obj03 = Excel_Oprate(path,2)
+fd01 = "整机"; fd02 = "7月备货"; fd03 = "7月备货"
+obj03.read_excel(fd01, fd02, fd03)
+obj03.get_data()
+l = [(x,y) for x, y in obj03.data.items() if x != "总计" and y != None and y != "是否"]
+predicted_plan = dict(l)
+print(predicted_plan)
 
-# 成品机和整机对照表
-# comparison_table = openpyxl.load_workbook("comparison table.xlsx")
-# comparison_table_ws = comparison_table.active
-# comparison_table_title = list(comparison_table_ws.values)[0]
-# comparison_finished_article = comparison_table_title.index("成品机品号")
-# comparison_unfinshed_article = comparison_table_title.index("整机品号")
-# comparison_dict = {}         # 定义字典存放对照表数据
-# for row in list(comparison_table_ws.values)[1:]:
-#     # print(row)
-#     if row[comparison_finished_article] != None:
-#         comparison_dict[str(row[comparison_finished_article])] = row[comparison_unfinshed_article]
-#     else:
-#         comparison_dict[str(row[comparison_unfinshed_article])] = row[comparison_unfinshed_article]
-# print(comparison_dict)
 
 
 
