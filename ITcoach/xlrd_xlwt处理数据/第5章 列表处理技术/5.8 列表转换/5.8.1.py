@@ -14,12 +14,12 @@
 
 
 
-# l6=[[1,2,3],[4,5,6]]
-# print(list(zip(*l6)))
+l6=[[1,2,3],[4,5,6]]
+print(list(zip(*l6)))
 
 
-l7=[1,2,3]
-l8=[4,5,6]
-# l9=['a','b','c']
-print(list(zip(l7,l8)))
-print([[x,y] for x,y  in zip(l7,l8)])
+# l7=[1,2,3]
+# l8=[4,5,6]
+# # l9=['a','b','c']
+# print(list(zip(l7,l8)))
+# print([[x,y] for x,y  in zip(l7,l8)])

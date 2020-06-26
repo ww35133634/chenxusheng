@@ -16,4 +16,4 @@ def avg(l: list, **demand):
 
 
 l = [32, 32, 4, 135, 34]
-avg(l, 和是=sum, 最大值是=max, 最小值是=min)
+avg(l, 和=sum, 最大值=max, 最小值=min)
