@@ -29,16 +29,10 @@ import openpyxl
 
 # 成品机整机机架对照表
 
-path = r"F:\python\ITcoach\company_data\成品整机机架对照表\成品整机机架对照表.xlsx"
+path = r"F:\pyprogram\company_data\整机成品机对照\整机成品机对照.xlsx"
 obj04 = Excel_Oprate(path)
-fd01 = "成品机品号"; fd02 = "整机品号"
-obj04.read_excel(fd01,fd02)
+fd01 = "成品机品号"
+fd02 = "整机品号"
+obj04.read_excel(fd01, fd02)
 obj04.get_data()
 print(obj04.data)
-
-
-
-
-
-
-

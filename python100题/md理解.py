@@ -17,17 +17,28 @@
 #     i += 1
 
 # 55. 题目：求0—7所能组成的奇数个数。
+q = 0
+for i in range(1, 8):
+    for j in range(8):
+        for k in range(8):
+            for l in range(8):
+                for m in range(8):
+                    for n in range(8):
+                        for o in range(8):
+                            for p in range(1, 8, 2):
+                                q += 1
+print(q)
 
+print(4*8*8*8*8*8*8*7)
 
-
-
-
-
-
-
-
-
-
-
-
-
+if __name__ == '__main__':
+    sum = 4
+    s = 4
+    for j in range(2, 9):
+        print(sum)
+        if j <= 2:
+            s *= 7
+        else:
+            s *= 8
+        sum += s
+    print('sum = %d' % sum)
