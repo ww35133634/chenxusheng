@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d9c9cc7-e702-42dd-9abc-adec4a2e7aa6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/company_data/sale_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/company_data/sale_order.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company_data/成品整机机架对照表/整机成品机对照.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/company_data/板卡信息汇总20200617.xlsm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/company_data/采购计划/采购计划202007-3.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/company_data/采购计划/采购计划202007-3.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company_data/写真喷绘工单信息20200617.xlsm" beforeDir="false" afterPath="$PROJECT_DIR$/company_data/写真喷绘工单信息20200617.xlsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company_data/工单明细表/工单明细表.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/company_data/工单明细表/工单明细表.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company_data/整机成品机对照/整机成品机对照.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/company_data/整机成品机对照/整机成品机对照.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company_data/板卡信息汇总20200624.xlsm" beforeDir="false" afterPath="$PROJECT_DIR$/company_data/板卡信息汇总20200624.xlsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company_data/销售预测/销售预测备货20200623.xlsm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/company_data/销售预测备货信息汇总20200624.xlsm" beforeDir="false" afterPath="$PROJECT_DIR$/company_data/销售预测备货信息汇总20200624.xlsm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python100题/md理解.py" beforeDir="false" afterPath="$PROJECT_DIR$/python100题/md理解.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python100题/md理解.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="99">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -82,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1456" />
@@ -307,23 +310,26 @@
       <workItem from="1593180342688" duration="72000" />
       <workItem from="1593214095877" duration="16366000" />
       <workItem from="1593306516635" duration="4999000" />
+      <workItem from="1593413698439" duration="905000" />
+      <workItem from="1593490949432" duration="1262000" />
+      <workItem from="1593492273047" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46037000" />
+    <option name="totallyTimeSpent" value="48803000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22079314" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22990353" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.34922862" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978479" weight="0.3218391" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928263" weight="0.39803094" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928263" weight="0.39770114" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -346,7 +352,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python$queue.coverage" NAME="多进程queue队列解决不能访问全局变量 Coverage Results" MODIFIED="1593256143087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ITcoach/python_ knowledge_point_practice" />
     <SUITE FILE_PATH="coverage/pyprogram$circle__1_.coverage" NAME="circle (1) Coverage Results" MODIFIED="1590111851033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
-    <SUITE FILE_PATH="coverage/pyprogram$md.coverage" NAME="md理解 Coverage Results" MODIFIED="1593318592783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python100题" />
+    <SUITE FILE_PATH="coverage/pyprogram$md.coverage" NAME="md理解 Coverage Results" MODIFIED="1593492042523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python100题" />
     <SUITE FILE_PATH="coverage/company$random_num.coverage" NAME="random_num Coverage Results" MODIFIED="1590151799647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01_basic" />
     <SUITE FILE_PATH="coverage/python$_.coverage" NAME="解决多线程资源竞争_互斥锁 Coverage Results" MODIFIED="1593219295050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ITcoach/python_ knowledge_point_practice" />
     <SUITE FILE_PATH="coverage/python_workbook$circle__1_.coverage" NAME="circle (1) Coverage Results" MODIFIED="1589355033808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
@@ -447,8 +453,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python100题/md理解.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="99">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
         </state>
       </provider>
     </entry>
