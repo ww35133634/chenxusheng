@@ -10,3 +10,6 @@
 
 l=[['a','b','c'],[1,2,3]]
 print(dict(zip(*l)))
+
+t = (('a','b','c','d'),(1,2,3,4))
+print(dict(zip(*t)))

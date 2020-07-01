@@ -22,23 +22,53 @@
 #     r=0
 # nwb.save('汇总表.xls')
 
-import openpyxl
+import xlrd,xlwt
 
-wb = openpyxl.load_workbook("业绩表.xlsx")
-ws = wb.active
-l = list(ws.values)[1:]
-d = {}
-for r in list(ws.values)[1:]:
-    if (r[0], r[1]) in d.keys():
-        d[(r[0], r[1])] += r[-1]
-    else:
-        d[(r[0], r[1])] = r[-1]
-nwb = openpyxl.Workbook()
-nwb.remove(nwb["Sheet"])
-for k in dict.fromkeys([x for x, y in d.keys()]).keys():
-    nws = nwb.create_sheet(k)
-    nws.append(["省份", "公司名", "总业绩"])
-    for l in [(x[0],x[1],y) for x,y in d.items()]:
-        if l[0] == k:
-            nws.append(l)
-nwb.save("汇总表01.xlsx")
+wb = xlrd.open_workbook("业绩表.xls")
+ws = wb.sheet_by_index(0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# import openpyxl
+#
+# wb = openpyxl.load_workbook("业绩表.xlsx")
+# ws = wb.active
+# l = list(ws.values)[1:]
+# d = {}
+# for r in list(ws.values)[1:]:
+#     if (r[0], r[1]) in d.keys():
+#         d[(r[0], r[1])] += r[-1]
+#     else:
+#         d[(r[0], r[1])] = r[-1]
+# nwb = openpyxl.Workbook()
+# nwb.remove(nwb["Sheet"])
+# for k in dict.fromkeys([x for x, y in d.keys()]).keys():
+#     nws = nwb.create_sheet(k)
+#     nws.append(["省份", "公司名", "总业绩"])
+#     for l in [(x[0],x[1],y) for x,y in d.items()]:
+#         if l[0] == k:
+#             nws.append(l)
+# nwb.save("汇总表01.xlsx")
