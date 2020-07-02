@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d9c9cc7-e702-42dd-9abc-adec4a2e7aa6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.10 实例应用（统计各日期的销售数据）/7.10.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.10 实例应用（统计各日期的销售数据）/7.10.1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.10 实例应用（统计各日期的销售数据）/销售表.xls" beforeDir="false" afterPath="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.10 实例应用（统计各日期的销售数据）/销售表.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.12 实例应用（统计各省各公司总业绩）/7.12.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.12 实例应用（统计各省各公司总业绩）/7.12.1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.12 实例应用（统计各省各公司总业绩）/业绩表.xls" beforeDir="false" afterPath="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.12 实例应用（统计各省各公司总业绩）/业绩表.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.3 字典的转换/7.3.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.3 字典的转换/7.3.1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.4 实例应用（多列求唯一值）/7.4.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.4 实例应用（多列求唯一值）/7.4.1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.4 实例应用（多列求唯一值）/业绩表.xls" beforeDir="false" afterPath="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.4 实例应用（多列求唯一值）/业绩表.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.6 实例应用（查询未发货订单）/7.6.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.6 实例应用（查询未发货订单）/7.6.1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.6 实例应用（查询未发货订单）/订单.xls" beforeDir="false" afterPath="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.6 实例应用（查询未发货订单）/订单.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.8 实例应用（统计各种蔬菜的总金额）/7.8.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.8 实例应用（统计各种蔬菜的总金额）/7.8.1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.9 字典的查询/7.9.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.9 字典的查询/7.9.1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第8章 集合处理技术/8.6 实例应用（统计每月每个战队的人数）/8.6.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第8章 集合处理技术/8.6 实例应用（统计每月每个战队的人数）/8.6.1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/company_data/写真喷绘工单信息20200617.xlsm" beforeDir="false" afterPath="$PROJECT_DIR$/company_data/写真喷绘工单信息20200617.xlsm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company_data/机架信息汇总20200624.xlsm" beforeDir="false" afterPath="$PROJECT_DIR$/company_data/机架信息汇总20200624.xlsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company_data/工单明细表/工单明细表.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/company_data/工单明细表/工单明细表.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/company_data/板卡信息汇总20200624.xlsm" beforeDir="false" afterPath="$PROJECT_DIR$/company_data/板卡信息汇总20200624.xlsm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company_data/采购计划/采购计划202007-4.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/company_data/采购计划/采购计划202007-4.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company_data/销售预测/销售预测备货-备用.xlsm" beforeDir="false" afterPath="$PROJECT_DIR$/company_data/销售预测/销售预测备货-备用.xlsm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/company_data/销售预测备货信息汇总20200628.xlsm" beforeDir="false" afterPath="$PROJECT_DIR$/company_data/销售预测备货信息汇总20200628.xlsm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company_data/销售预测材料信息20200624.xlsm" beforeDir="false" afterPath="$PROJECT_DIR$/company_data/销售预测材料信息20200624.xlsm" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,17 +29,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python100题/md理解.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            <state relative-caret-position="462">
+              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.12 实例应用（统计各省各公司总业绩）/7.12.1.py">
+        <entry file="file://$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第8章 集合处理技术/8.6 实例应用（统计每月每个战队的人数）/8.6.1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="547">
+              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -99,6 +85,7 @@
         <option value="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.9 字典的查询/7.9.2.py" />
         <option value="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.10 实例应用（统计各日期的销售数据）/7.10.1.py" />
         <option value="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.12 实例应用（统计各省各公司总业绩）/7.12.1.py" />
+        <option value="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第8章 集合处理技术/8.6 实例应用（统计每月每个战队的人数）/8.6.1.py" />
       </list>
     </option>
   </component>
@@ -139,29 +126,7 @@
               <item name="pyprogram" type="462c0819:PsiDirectoryNode" />
               <item name="ITcoach" type="462c0819:PsiDirectoryNode" />
               <item name="xlrd_xlwt处理数据" type="462c0819:PsiDirectoryNode" />
-              <item name="xlrd_xlwt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyprogram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyprogram" type="462c0819:PsiDirectoryNode" />
-              <item name="ITcoach" type="462c0819:PsiDirectoryNode" />
-              <item name="xlrd_xlwt处理数据" type="462c0819:PsiDirectoryNode" />
-              <item name="第6章 元组处理技术" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyprogram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyprogram" type="462c0819:PsiDirectoryNode" />
-              <item name="ITcoach" type="462c0819:PsiDirectoryNode" />
-              <item name="xlrd_xlwt处理数据" type="462c0819:PsiDirectoryNode" />
               <item name="第7章 字典处理技术" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyprogram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyprogram" type="462c0819:PsiDirectoryNode" />
-              <item name="ITcoach" type="462c0819:PsiDirectoryNode" />
-              <item name="xlrd_xlwt处理数据" type="462c0819:PsiDirectoryNode" />
-              <item name="第7章 字典处理技术" type="462c0819:PsiDirectoryNode" />
-              <item name="7.12 实例应用（统计各省各公司总业绩）" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyprogram" type="b2602c69:ProjectViewProjectNode" />
@@ -169,6 +134,22 @@
               <item name="ITcoach" type="462c0819:PsiDirectoryNode" />
               <item name="xlrd_xlwt处理数据" type="462c0819:PsiDirectoryNode" />
               <item name="第8章 集合处理技术" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyprogram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyprogram" type="462c0819:PsiDirectoryNode" />
+              <item name="ITcoach" type="462c0819:PsiDirectoryNode" />
+              <item name="xlrd_xlwt处理数据" type="462c0819:PsiDirectoryNode" />
+              <item name="第8章 集合处理技术" type="462c0819:PsiDirectoryNode" />
+              <item name="8.6 实例应用（统计每月每个战队的人数）" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyprogram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyprogram" type="462c0819:PsiDirectoryNode" />
+              <item name="ITcoach" type="462c0819:PsiDirectoryNode" />
+              <item name="xlrd_xlwt处理数据" type="462c0819:PsiDirectoryNode" />
+              <item name="第8章 集合处理技术" type="462c0819:PsiDirectoryNode" />
+              <item name="8.7 集合的运算" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyprogram" type="b2602c69:ProjectViewProjectNode" />
@@ -218,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.7.11.3">
+  <component name="RunManager" selected="Python.8.6.1">
     <configuration name="7.10.1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pyprogram" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -285,7 +266,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7.9.1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="8.6.1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pyprogram" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -293,12 +274,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.9 字典的查询" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第8章 集合处理技术/8.6 实例应用（统计每月每个战队的人数）" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.9 字典的查询/7.9.1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第8章 集合处理技术/8.6 实例应用（统计每月每个战队的人数）/8.6.1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -307,7 +288,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7.9.2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="8.7.1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pyprogram" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -315,34 +296,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.9 字典的查询" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第8章 集合处理技术/8.7 集合的运算" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.9 字典的查询/7.9.2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="多进程完成多任务" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pyprogram" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ITcoach/python_ knowledge_point_practice" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\python\ITcoach\python_ knowledge_point_practice\多进程.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第8章 集合处理技术/8.7 集合的运算/8.7.1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -353,11 +312,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.8.6.1" />
+        <item itemvalue="Python.8.7.1" />
         <item itemvalue="Python.7.11.3" />
         <item itemvalue="Python.7.11.1" />
         <item itemvalue="Python.7.10.1" />
-        <item itemvalue="Python.7.9.2" />
-        <item itemvalue="Python.7.9.1" />
       </list>
     </recent_temporary>
   </component>
@@ -388,17 +347,18 @@
       <workItem from="1593490949432" duration="1262000" />
       <workItem from="1593492273047" duration="605000" />
       <workItem from="1593576804077" duration="15341000" />
+      <workItem from="1593664064435" duration="3739000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64150000" />
+    <option name="totallyTimeSpent" value="67889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23311897" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2363344" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -434,12 +394,14 @@
     <SUITE FILE_PATH="coverage/pyprogram$random_num.coverage" NAME="random_num Coverage Results" MODIFIED="1590136015844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01_basic" />
     <SUITE FILE_PATH="coverage/python$.coverage" NAME="多进程 Coverage Results" MODIFIED="1593246008673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ITcoach/python_ knowledge_point_practice" />
     <SUITE FILE_PATH="coverage/pyprogram$7_10_1.coverage" NAME="7.10.1 Coverage Results" MODIFIED="1593592621768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.10 实例应用（统计各日期的销售数据）" />
+    <SUITE FILE_PATH="coverage/pyprogram$8_6_1.coverage" NAME="8.6.1 Coverage Results" MODIFIED="1593682245755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第8章 集合处理技术/8.6 实例应用（统计每月每个战队的人数）" />
     <SUITE FILE_PATH="coverage/pyprogram$7_6_1.coverage" NAME="7.6.1 Coverage Results" MODIFIED="1593585019562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.6 实例应用（查询未发货订单）" />
     <SUITE FILE_PATH="coverage/pyprogram$sale_order.coverage" NAME="sale_order Coverage Results" MODIFIED="1593316814854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/company_data" />
     <SUITE FILE_PATH="coverage/python$queue.coverage" NAME="多进程queue队列解决不能访问全局变量 Coverage Results" MODIFIED="1593256143087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ITcoach/python_ knowledge_point_practice" />
     <SUITE FILE_PATH="coverage/pyprogram$md.coverage" NAME="md理解 Coverage Results" MODIFIED="1593492042523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python100题" />
     <SUITE FILE_PATH="coverage/company$random_num.coverage" NAME="random_num Coverage Results" MODIFIED="1590151799647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01_basic" />
     <SUITE FILE_PATH="coverage/pyprogram$7_3_1.coverage" NAME="7.3.1 Coverage Results" MODIFIED="1593577352747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.3 字典的转换" />
+    <SUITE FILE_PATH="coverage/pyprogram$8_7_1.coverage" NAME="8.7.1 Coverage Results" MODIFIED="1593666791043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第8章 集合处理技术/8.7 集合的运算" />
     <SUITE FILE_PATH="coverage/python_workbook$helloworld.coverage" NAME="helloworld Coverage Results" MODIFIED="1589334157615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyprogram$7_11_3.coverage" NAME="7.11.3 Coverage Results" MODIFIED="1593593044996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.11 字典的循环" />
     <SUITE FILE_PATH="coverage/python_workbook$.coverage" NAME="字符串方法 Coverage Results" MODIFIED="1589334162045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -454,9 +416,6 @@
     <SUITE FILE_PATH="coverage/python_workbook$circle.coverage" NAME="circle Coverage Results" MODIFIED="1589339291546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/let01" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pg03_excel/office.py" />
-    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/openpyxl/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/helloworld.py" />
     <entry file="file://$PROJECT_DIR$/pg03_excel/excel.py" />
     <entry file="file://$PROJECT_DIR$/pg03_excel/operate_excel.py" />
     <entry file="file://$PROJECT_DIR$/pg03_excel/test100.py" />
@@ -524,21 +483,6 @@
             <caret line="2" selection-start-line="2" selection-end-line="2" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python100题/答案.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python100题/md理解.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -720,10 +664,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/python100题/答案.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第7章 字典处理技术/7.12 实例应用（统计各省各公司总业绩）/7.12.1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python100题/md理解.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第8章 集合处理技术/8.5 集合的循环与推导/8.5.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第8章 集合处理技术/8.5 集合的循环与推导/8.5.2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第8章 集合处理技术/8.7 集合的运算/8.7.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITcoach/xlrd_xlwt处理数据/第8章 集合处理技术/8.6 实例应用（统计每月每个战队的人数）/8.6.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
         </state>
       </provider>
     </entry>
